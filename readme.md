@@ -6,6 +6,12 @@ Template to build clean API with graph-gophers package using go, graphql and pos
 
 This template is for beginners it doesn't manage production environment. The main goal is to provide the simpliest template you can find, to make it understandable for new people in golang and/or graphql. [You can find doc and examples on how to use graph-gophers graphql package there.](https://github.com/graph-gophers/graphql-go)
 
+### Download template
+
+```
+git clone https://github.com/Xheid/graphql-golang-apitemplate
+```
+
 ### Install packages
 
 Go to the root directory of the template and use this command line to install all packages dependancies you need :
