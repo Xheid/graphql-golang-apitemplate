@@ -29,6 +29,10 @@ In your docker-compose file, change your database environment (name, user, passw
 docker-compose up
 ```
 
+### Synchronise your api with your database
+
+In your directory, open your .env file and change each environment variable to make it match up with your database environment.
+
 ### Rest API
 
 This template is mainly for graphql api. However, it is easily usuable with REST API too. Now just follow the doc and enjoy :-) ! 
