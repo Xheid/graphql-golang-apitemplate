@@ -40,4 +40,4 @@ This template is mainly for graphql api. However, it is easily usuable with REST
 ### Ressources 
 
 * Build REST api with [mux](https://github.com/gorilla/mux).
-* Build GRAPHQL api with [graph-gophers graphql library](https://github.com/graph-gophers/graphql-go).
+* Build GRAPHQL api with [graph-gophers graphql package](https://github.com/graph-gophers/graphql-go).
