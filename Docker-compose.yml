@@ -5,13 +5,13 @@ services:
     image: "postgres:10-alpine"
     restart: "unless-stopped"
     environment:
-      POSTGRES_DB: "innovation_factory"
-      POSTGRES_USER: "innovation_factory"
-      POSTGRES_PASSWORD: "azerty"
+      POSTGRES_DB: "db_name"
+      POSTGRES_USER: "db_user"
+      POSTGRES_PASSWORD: "db_password"
     volumes:
-      - "innovation_factory:/var/lib/postgresql/data"
+      - "db_name:/var/lib/postgresql/data"
     ports:
       - "5432:5432"
 
 volumes:
-  innovation_factory:
+  db_name:
