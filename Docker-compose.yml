@@ -1,6 +1,15 @@
 version: "3.1"
 
 services:
+  app:
+    build: "./"
+    restart: "unless-stopped"
+    links:
+      - database
+    volumes:
+      - "./:/go/src/app"
+    ports:
+      - 8080:8080
   database:
     image: "postgres:10-alpine"
     restart: "unless-stopped"
